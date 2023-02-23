@@ -1,0 +1,16 @@
+# pip install -r requirements.txt
+
+# Base ----------------------------------------
+
+python==3.7.5
+torch==1.7.1
+torchvision==0.8.2
+timm==0.2.4
+matplotlib==3.4.3
+
+numpy==1.19.5
+scipy==1.7.1
+opencv-python==4.2.0.34
+
+# Logging -------------------------------------
+tensorboard==2.5.0
