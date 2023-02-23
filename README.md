@@ -37,6 +37,13 @@ Download the datasets and pretrained models first. Please prepare the basic fold
     README.md
     ...
 ```
+## Test
+### For the evaluation on LOL-v1 and LOL-v2, you should write input_dir with your path on test.py
+```bash  
+# put datasets and pretrained model in the corresponding directory 
+cd DLEN 
+python test.py
+```
 ## Train
 
 The source code for training our DLEN will be available after the publication of the paper.
