@@ -26,8 +26,8 @@ Download the datasets and pretrained models first. Please prepare the basic fold
 ```bash
 /parent_folder
   /datasets   # folder for datasets 
-    /train/low
-    /val/low
+    /train
+    /val
     ...
   /DLEN
     /src     # config files for datasets
