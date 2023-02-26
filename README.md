@@ -38,7 +38,7 @@ Download the datasets and pretrained models first. Please prepare the basic fold
     ...
 ```
 ## Test
-### For the evaluation on LOL-v1 and LOL-v2, you should write input_dir with your path on test.py
+### For the evaluation on LOL-v1 and LOL-v2, you should change input_dir (Input image directory) with your path on test.py
 ```bash  
 # put datasets and pretrained model in the corresponding directory 
 cd DLEN 
