@@ -24,18 +24,14 @@ pip install -r ./requirements.txt
 Download the datasets and pretrained models first. Please prepare the basic folder structure as follows.
 
 ```bash
-/parent_folder
-  /datasets   # folder for datasets 
-    /train
-    /val
-    ...
+
   /DLEN
-    /src     # config files for datasets
+    /src     # config files for datasets and PSNR and SSIM code
     /models   # python files for DLEN
     /pretrained_models  # folder for pretrained models
     requirements.txt
     README.md
-    ...
+    
 ```
 ## Test
 ### For the evaluation on LOL-v1 and LOL-v2, you should change input_dir (Input image directory) with your datasets path on the test.py
