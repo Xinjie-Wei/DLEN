@@ -24,9 +24,6 @@ class LFEM(nn.Module):
         patch_w: Patch width for unfolding operation. Default: 2
         transformer_norm_layer: Normalization layer in the transformer block. Default: layer_norm
         conv_ksize: The kernel size of convolution. Default: 3
-        The partial network settings were inspired by the paper:
-        MobileViT: Light-weight, general-purpose, and mobile-friendly vision transformer
-            https://arxiv.org/abs/2110.02178
 
     """
     def __init__(self, in_channels=96, transformer_dim=144, ffn_dim=288,
