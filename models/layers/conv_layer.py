@@ -125,7 +125,6 @@ class ConvLayer(nn.Module):
         if self.use_norm and norm_type is not None:
             norm_layer = normalization_layer(num_features=out_channels, norm_type=norm_type)
             block.add_module(name="norm", module=norm_layer)
-            self.norm_name = norm_layer.__class__.__name__
 
         self.act_name = None
 
