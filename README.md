@@ -1,7 +1,8 @@
 # DLEN
 PyTorch code for our paper" DLEN: Deep Laplacian Enhancement Networks for Low-Light Images "
-Visual comparisons
+## Visual comparisons on LOLv1 and LOLv2 
 ![image](figs/LOLv1_179.png)
+![image](figs/LOL_v1_v2.png)
 ## Dependencies
 * python==3.7.5
 * torch==1.7.1
