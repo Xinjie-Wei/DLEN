@@ -1,8 +1,6 @@
 # DLEN
 PyTorch code for our paper" DLEN: Deep Laplacian Enhancement Networks for Low-Light Images "
-# Introduction
-Enhancing low-light images is challenging as it requires simultaneously handling global and local contents. This paper presents a new solution which incorporates the vision transformer (ViT) into Laplacian pyramid and explores cross-layer dependence within the pyramid. It first applies Laplacian pyramid to decompose the low-light image into a low-frequency (LF) component and several high-frequency (HF) components. As the LF component has a low resolution and mainly includes global attributes, ViT is applied on it to explore the interdependence among global contents. Since there exists strong spatial correlation among different frequency components, the refined features from a lower pyramid layer are used to assist the refinement of upperlayer features.
-![image](figs/DLEN.png)
+
 ## Dependencies
 * python==3.7.5
 * torch==1.7.1
